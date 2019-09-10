@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Agendar evento</title>
+    <link rel="stylesheet" type="text/css" href="style-rt.css"/>
+    </head>
+</head>
+<body>
+        <header>
+                <div id=logo>
+                    <img src="C:\Users\52007254883\Desktop\2s-2019-t1-role_top\Rolê top\img-rt\logo.png" width="140em" />
+                </div>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html"> Início </a></li>
+                            <li><a href="index.html#Galeria">Galeria</a></li>
+                            <li><a href="index.html#FAQ">FAQ</a></li>
+                            <li><a href="index.html#Localização">Localização</a></li>
+                            <li><a href="eventos-rt.html">Agendar Evento</a></li>
+                            <li><a href="login-rt.html">Login</a></li>
+                            <li><a href="tela-admin.html">Tela de Admin.</a></li>
+                        </ul>
+                    </nav>
+                </header>
+    <form method="GET" action="dashboard.html">
+
+    <h2>Cadastrar Eventos</h2>
+
+    <div>
+        <label for="text">Nome do Evento</label>
+        <br />
+        <input id="text" type="text"/>
+    </div>
+
+    <br />
+
+    <div>
+        <label for="tipo-evento">Tipo de Evento</label>
+        <select id="tipo-evento" required>
+            <option value="" disabled selected>selecione</option>
+            <option value="casamento">Casamento</option>
+            <option value="aniversario">Aniversário</option>
+            <option value="show">Shows</option>
+            <option value="outros">Outros</option>
+        </select>
+    </div>
+
+    <br />
+
+    <div>
+        <input type="date" id="data" value="Data">
+    </div>
+
+    <br />
+
+    <div>
+        <label for="descrição">Descrição do Evento</label>
+        <br />
+        <input id="descrição" type="text">
+    </div>
+
+        <br />
+
+        <div>
+            <label for="plano-evento">Plano de Evento</label>
+            <select id="plano-evento" required>
+                <option value="" disabled selected>selecione</option>
+                <option value="simples">Simples</option>
+                <option value="luz">Luz</option>
+                <option value="som">Som</option>
+                <option value="completo">Completo</option>
+            </select>
+        </div>
+
+        <br />
+
+    <div>
+        <input type="submit" value="Agendar Evento">
+    </div>
+</form>
+</body>
+</html>

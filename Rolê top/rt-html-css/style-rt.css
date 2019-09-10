@@ -37,7 +37,8 @@ nav > ul > li {
 
 .foto{
     height: 166px;
-    width: 303;
+    width: 303px;
+    border: #000000;
 }
 
     footer {
