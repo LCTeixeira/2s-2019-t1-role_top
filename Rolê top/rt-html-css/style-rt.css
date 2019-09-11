@@ -29,7 +29,7 @@ header{
 nav > ul > li {
     width: 100%;
     text-align: center;
-    color: #ffc600;
+    text-decoration-color: #ffc600;
     text-decoration: none;
     list-style-type: none;
 
@@ -38,12 +38,87 @@ nav > ul > li {
 .foto{
     height: 166px;
     width: 303px;
-    border: #000000;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    align-items: center;
+
 }
 
     footer {
         background-color: #7d0093;
-        text-decoration-color: #ffc600
+        text-decoration-color: #ffc600;
+        
     }
+
+.login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cadastro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.eventos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+thead {
+    background-color: #7d0093;
+}
+
+tfoot {
+    background-color: #7d0093;
+}
+
+.tabela-admin {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media {
+    .tabela-admin {
+        text-size-adjust: 200%
+    }
+
+    .eventos{
+        text-size-adjust: 200%
+    }
+
+    label {
+        width: 200%
+    }
+
+    select {
+        block-size: 200%
+    }
+  .email-box {
+      text-size-adjust: 200%
+  }
+
+  .senha-box  {
+    text-size-adjust: 200%
+  }
+
+  .nome-box {
+    text-size-adjust: 200%
+  }
+
+  .cpf-box {
+    text-size-adjust: 200%
+  }
+
+  .tel-box {
+    text-size-adjust: 200%
+  }
+}
+
+
 
     
